@@ -1,3 +1,8 @@
+body{
+  overflow-x: hidden;
+}
+
+
 .carousel-item {
     height: 100vh;
     min-height: 350px;
