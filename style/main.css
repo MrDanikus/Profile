@@ -1,0 +1,215 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+canvas{
+  position: absolute;
+  top:100vh;
+  opacity: 0.4;
+  z-index: -10;
+}
+
+/* #me{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid black 4px;
+} */
+
+
+
+
+
+
+/* footer social icons */
+.footer {
+  background-color: #ffffff00;
+  padding: 20px 0;
+  text-align: center;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin: auto;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 10px;
+}
+/* footer social icons */
+.social-network a.icoVk:hover {
+  background-color: #3b5998;
+}
+.social-network a.icoTwitter:hover {
+  background-color: #3cf;
+}
+.social-network a.icoTelegram:hover {
+  background-color: #0b89d3;
+}
+.social-network a.icoGithub:hover {
+  background-color: black;
+}
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+.social-network a.icoInstagram:hover {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+.social-network a.icoRss:hover i, .social-network a.icoVk:hover i, .social-network a.icoTwitter:hover i, .social-network a.icoTelegram:hover i, .social-network a.icoGithub:hover i, .social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
+}
+.social-circle li i {
+  margin: 0;
+  line-height: 60px;
+  text-align: center;
+}
+.social-circle li a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.social-circle a {
+  background-color: #ccd8ea;
+}
+@media screen and (max-width: 500px) {
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+ }
+}
+@media screen and (max-width: 450px) {
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+ }
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+ }
+  .social-circle li i {
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+ }
+}
+@media screen and (max-width: 350px) {
+  ul.social-network li {
+    display: inline;
+    margin: 0 2px;
+ }
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+ }
+  .social-circle li i {
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+ }
+}
+
+
+.cv-container{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.cv{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,50%);
+  text-align: center;
+  width: 400px;
+  border: solid black 2px;
+  padding: 20px 10px;
+  border-radius: 30px;
+  transition: 0.4s linear;
+}
+
+.cv a{
+  color: black;
+  display: block;
+}
+.cv h1{
+  display: block;
+  margin: 0;
+  padding-bottom: 4px;
+  font-size: 1.8em;
+}
+
+.aqua-gradient {
+  background: linear-gradient(40deg, #2096ff, #05ffa3) !important
+}
+
+.cv a:hover{
+  text-decoration: none;
+}
+
+.cv:hover{
+  /* background: linear-gradient(40deg, #2096ffAA, #05ffa3AA); */
+  border-color: #ffffff00;
+  transition: 0.4s linear;
+}
+
+.cv button{
+  opacity: 0.1;
+  border-radius: 20px;
+}
